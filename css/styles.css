@@ -19,10 +19,31 @@ header {
   left: 0px;
   top: 0px;
 }
-.main-nav,
-.main-nav li,
-.main-nav ul {
+header nav,
+header ul,
+header li {
   display: inline;
+}
+header > a {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+}
+.site-nav {
+  position: absolute;
+  width: 294px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+.auth-nav {
+  position: absolute;
+  width: 307px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
 }
 
 /* секция герой  */
