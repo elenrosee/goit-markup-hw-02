@@ -9,7 +9,6 @@ a {
   margin: 0;
   padding: 0;
 }
-
 /*убрали дефолтные стили*/
 
 /*шапка сайта*/
@@ -19,10 +18,6 @@ header {
   height: 80px;
   left: 0px;
   top: 0px;
-  background-color: #ececec;
-}
-.main-nav a:hover {
-  color: #2196f3;
 }
 .main-nav,
 .main-nav li,
@@ -30,11 +25,125 @@ header {
   display: inline;
 }
 
+/* секция герой  */
 .hero {
   position: absolute;
   width: 1600px;
   height: 600px;
   left: 0px;
   top: 80px;
-  background-color: #2f303a;
+}
+.hero h1 {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 200px;
+}
+.hero a {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 350px;
+}
+
+/* секция особенности и чем мы занимаемся */
+.section-about-us {
+  position: absolute;
+  width: 1600px;
+  height: 770px;
+  left: 0px;
+  top: 680px;
+}
+.caption-about-us {
+  display: none;
+}
+.section-about-us ul,
+.section-about-us li {
+  display: inline-block;
+}
+.about-us {
+  position: absolute;
+  width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 94px;
+}
+.about-us p {
+  width: 270px;
+  height: 75px;
+  display: block;
+}
+.caption-we-doing {
+  position: absolute;
+  width: 376px;
+  height: 42px;
+  left: 612px;
+  top: 289px;
+}
+.we-doing {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 381px;
+}
+.we-doing img {
+  width: 370px;
+  height: 294px;
+}
+
+/* секция наша команда */
+.section-team {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+}
+.section-team h2 {
+  position: absolute;
+  width: 264px;
+  height: 42px;
+  left: 668px;
+  top: 94px;
+}
+.section-team ul,
+.section-team li {
+  display: inline-block;
+}
+.section-team ul {
+  position: absolute;
+  width: 1170px;
+  height: 368px;
+  left: 215px;
+  top: 186px;
+}
+.section-team img {
+  width: 270px;
+  height: 260px;
+}
+
+/* футер */
+footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+}
+footer > a {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 60px;
+}
+footer address {
+  position: absolute;
+  width: 231px;
+  height: 81px;
+  left: 215px;
+  top: 111px;
 }
