@@ -77,7 +77,7 @@ header > a {
   left: 0px;
   top: 680px;
 }
-.caption-about-us {
+.title-about-us {
   display: none;
 }
 .section-about-us ul,
@@ -96,21 +96,21 @@ header > a {
   height: 75px;
   display: block;
 }
-.caption-we-doing {
+.title-what-we-do {
   position: absolute;
   width: 376px;
   height: 42px;
   left: 612px;
   top: 289px;
 }
-.we-doing {
+.what-we-do {
   position: absolute;
   width: 1170px;
   height: 386px;
   left: 215px;
   top: 381px;
 }
-.we-doing img {
+.what-we-do img {
   width: 370px;
   height: 294px;
 }

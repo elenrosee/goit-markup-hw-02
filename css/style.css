@@ -1,0 +1,139 @@
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/*убрали дефолтные стили*/
+
+:root {
+  --text-color-white: #ffffff;
+  --text-color-black: #212121;
+  --text-color-grey: #757575;
+  --accent-color: #2196f3;
+  --text-color-auth-nav: rgba(255, 255, 255, 0.6);
+  --text-color-black-logo: #000000;
+  --background-color-gray: #2f303a;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*шапка сайта*/
+
+.web-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  color: var(--accent-color);
+}
+.studio-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  color: var(--text-color-black-logo);
+}
+.site-nav a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  color: var(--text-color-black);
+}
+.auth-nav a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  color: var(--text-color-grey);
+}
+.site-nav a:hover,
+.site-nav a:focus,
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: var(--accent-color);
+}
+
+/* секция герой  */
+.hero {
+  background-color: var(--background-color-gray);
+}
+.hero h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--text-color-white);
+  text-transform: uppercase;
+}
+.hero a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  background-color: var(--accent-color);
+  color: var(--text-color-white);
+}
+
+/* секция особенности и чем мы занимаемся */
+.title-about-us {
+  display: none;
+}
+
+.about-us h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  color: var(--text-color-black);
+  text-transform: uppercase;
+}
+.about-us p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--text-color-grey);
+}
+.title-what-we-do .title-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--text-color-black);
+}
+
+/* секция наша команда */
+
+.section-team {
+  background-color: #f5f4fa;
+}
+.section-team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  color: var(--text-color-black);
+}
+.section-team p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
+  color: var(--text-color-grey);
+}
+
+/* футер */
+
+.footer {
+  background-color: var(--background-color-gray);
+}
+.footer-auth-nav a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--text-color-auth-nav);
+  font-style: normal;
+}
+.footer-auth-nav .address {
+  color: var(--text-color-white);
+}
