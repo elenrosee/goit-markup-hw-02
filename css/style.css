@@ -55,6 +55,9 @@ body {
   line-height: 1.17;
   color: var(--text-color-black);
 }
+.current.nav-link {
+  color: var(--accent-color);
+}
 .contact-link {
   font-size: 14px;
   font-weight: 500;
