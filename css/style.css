@@ -35,19 +35,20 @@ body {
   border: 1px solid var(--border-color);
 }
 
-.web-logo {
+.logo {
   font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 .studio-logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.17;
   color: var(--text-color-black-logo);
+}
+footer .studio-logo {
+  color: var(--text-color-white);
 }
 .nav-link {
   font-size: 14px;
