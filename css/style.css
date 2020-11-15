@@ -19,7 +19,11 @@ a {
   --text-color-auth-nav: rgba(255, 255, 255, 0.6);
   --text-color-black-logo: #000000;
   --background-color-gray: #2f303a;
+  --background-color-bottom: #f5f4fa;
+  --border-color: #ececec;
 }
+
+/*общие стили для index.html*/
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -27,6 +31,9 @@ body {
 }
 
 /*шапка сайта*/
+.page-header {
+  border: 1px solid var(--border-color);
+}
 
 .web-logo {
   font-family: 'Raleway', sans-serif;
@@ -137,4 +144,35 @@ body {
 }
 .footer-auth-nav .address {
   color: var(--text-color-white);
+}
+
+/* оформление для сайта портфолио */
+
+/* мейн */
+
+.menu-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  background-color: var(--background-color-bottom);
+  color: var(--text-color-black);
+  border-radius: 4px;
+}
+.menu-button:hover,
+.menu-button:focus {
+  background-color: var(--accent-color);
+  color: var(--text-color-white);
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--text-color-black);
+}
+.project-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--text-color-grey);
 }
