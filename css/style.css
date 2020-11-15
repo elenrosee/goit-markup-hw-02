@@ -23,6 +23,7 @@ a {
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: var(--text-color-white);
 }
 
 /*шапка сайта*/
@@ -41,22 +42,22 @@ body {
   line-height: 1.17;
   color: var(--text-color-black-logo);
 }
-.site-nav a {
+.nav-link {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.17;
   color: var(--text-color-black);
 }
-.auth-nav a {
+.contact-link {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.17;
   color: var(--text-color-grey);
 }
-.site-nav a:hover,
-.site-nav a:focus,
-.auth-nav a:hover,
-.auth-nav a:focus {
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
   color: var(--accent-color);
 }
 
@@ -64,14 +65,14 @@ body {
 .hero {
   background-color: var(--background-color-gray);
 }
-.hero h1 {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   color: var(--text-color-white);
   text-transform: uppercase;
 }
-.hero a {
+.hero-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -80,24 +81,24 @@ body {
 }
 
 /* секция особенности и чем мы занимаемся */
-.title-about-us {
+.about-us .title {
   display: none;
 }
 
-.about-us h3 {
+.about-us-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
   color: var(--text-color-black);
   text-transform: uppercase;
 }
-.about-us p {
+.about-us-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--text-color-grey);
 }
-.title-what-we-do .title-team {
+.what-we-do-title .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -106,16 +107,16 @@ body {
 
 /* секция наша команда */
 
-.section-team {
+.team {
   background-color: #f5f4fa;
 }
-.section-team h3 {
+.team-worker {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
   color: var(--text-color-black);
 }
-.section-team p {
+.profession {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.17;
@@ -127,7 +128,7 @@ body {
 .footer {
   background-color: var(--background-color-gray);
 }
-.footer-auth-nav a {
+.footer-auth-nav .link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;

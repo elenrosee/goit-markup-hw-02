@@ -70,47 +70,47 @@ header > a {
 }
 
 /* секция особенности и чем мы занимаемся */
-.section-about-us {
+.about-us {
   position: absolute;
   width: 1600px;
   height: 770px;
   left: 0px;
   top: 680px;
 }
-.title-about-us {
+.about-us .title {
   display: none;
 }
-.section-about-us ul,
-.section-about-us li {
+.about-us-list,
+.about-us-list li {
   display: inline-block;
 }
-.about-us {
+.about-us-list {
   position: absolute;
   width: 1170px;
   height: 101px;
   left: 215px;
   top: 94px;
 }
-.about-us p {
+.about-us-text {
   width: 270px;
   height: 75px;
   display: block;
 }
-.title-what-we-do {
+.what-we-do-title {
   position: absolute;
   width: 376px;
   height: 42px;
   left: 612px;
   top: 289px;
 }
-.what-we-do {
+.what-we-do-list {
   position: absolute;
   width: 1170px;
   height: 386px;
   left: 215px;
   top: 381px;
 }
-.what-we-do img {
+.what-we-do-img {
   width: 370px;
   height: 294px;
 }
