@@ -27,6 +27,11 @@ a {
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--text-color-black);
   background-color: var(--text-color-white);
 }
 
@@ -40,8 +45,6 @@ body {
   font-weight: bold;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 .studio-logo {
@@ -51,18 +54,14 @@ footer .studio-logo {
   color: var(--text-color-white);
 }
 .nav-link {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.17;
   color: var(--text-color-black);
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 .current.nav-link {
   color: var(--accent-color);
 }
 .contact-link {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.17;
   color: var(--text-color-grey);
 }
 .nav-link:hover,
@@ -80,13 +79,16 @@ footer .studio-logo {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
   color: var(--text-color-white);
+  text-align: center;
   text-transform: uppercase;
 }
 .hero-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--text-color-white);
 }
@@ -98,22 +100,17 @@ footer .studio-logo {
 
 .about-us-title {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.17;
-  color: var(--text-color-black);
   text-transform: uppercase;
 }
 .about-us-text {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   color: var(--text-color-grey);
 }
-.what-we-do-title .team-title {
+.what-we-do-title,
+.team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17;
-  color: var(--text-color-black);
+  text-align: center;
 }
 
 /* секция наша команда */
@@ -121,17 +118,18 @@ footer .studio-logo {
 .team {
   background-color: #f5f4fa;
 }
+.team-list {
+  background-color: var(--text-color-white);
+}
 .team-worker {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.17;
-  color: var(--text-color-black);
+  text-align: center;
 }
 .profession {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.17;
   color: var(--text-color-grey);
+  text-align: center;
 }
 
 /* футер */
@@ -140,8 +138,6 @@ footer .studio-logo {
   background-color: var(--background-color-gray);
 }
 .footer-auth-nav .link {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   color: var(--text-color-auth-nav);
   font-style: normal;
@@ -158,10 +154,11 @@ footer .studio-logo {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  text-align: center;
   background-color: var(--background-color-bottom);
-  color: var(--text-color-black);
   border-radius: 4px;
 }
+.current.menu-button,
 .menu-button:hover,
 .menu-button:focus {
   background-color: var(--accent-color);
@@ -172,10 +169,9 @@ footer .studio-logo {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  color: var(--text-color-black);
+  letter-spacing: 0.06em;
 }
 .project-type {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   color: var(--text-color-grey);
