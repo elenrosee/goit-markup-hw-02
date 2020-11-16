@@ -37,13 +37,9 @@ body {
 }
 
 /*шапка сайта*/
-.page-header {
-  border: 1px solid var(--border-color);
-}
 
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
   font-weight: 700;
   font-size: 26px;
   color: var(--accent-color);
@@ -156,7 +152,6 @@ footer .studio-logo {
   line-height: 1.62;
   text-align: center;
   background-color: var(--background-color-bottom);
-  border-radius: 4px;
 }
 .current.menu-button,
 .menu-button:hover,
